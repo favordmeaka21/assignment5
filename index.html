@@ -1,0 +1,88 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Facebook Login</title>  
+    <link rel="stylesheet" href="styles.css"> 
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: #033a8b;  
+            margin: 0;  
+            display: flex; 
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;   
+        }  
+        .login-container {  
+            background-color: white;  
+            padding: 40px; 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+            width: 350px;  
+            text-align: center; 
+        }  
+        .login-container h1 {  
+            margin-bottom: 20px;   
+            font-size: 24px; 
+            color: #1877f2;  
+        }  
+        .login-container input[type="text"],  
+        .login-container input[type="password"] {  
+            width: 100%;  
+            padding: 10px;   
+            margin: 10px 0;   
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }  
+        .login-container button {  
+            background-color: #1877f2;  
+            color: white; 
+            padding: 10px;  
+            border: none;   
+            border-radius: 5px;   
+            cursor: pointer;  
+            width: 100%; 
+            font-size: 16px;  
+        }  
+        .login-container button:hover {  
+            background-color: #165eab;   
+        }  
+        .signup-link {  
+            margin-top: 15px; 
+            font-size: 14px; 
+            color: #1877f2; 
+            text-decoration: none; /
+        }  
+        .signup-link:hover {  
+            text-decoration: underline; 
+        }  
+        .divider {  
+            margin: 20px 0; 
+            height: 1px; 
+            background-color: #ccc; 
+        }  
+        .alternative-login {  
+            font-size: 14px; 
+            margin: 10px 0;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+    <div class="login-container">  
+        <h1>Facebook</h1>  
+        <input type="text" placeholder="Email or Phone number" required>  
+        <input type="password" placeholder="Password" required>  
+        <button>Log In</button>  
+        <div class="divider"></div>  
+        <div class="alternative-login"><a href="">Login with Google</a></div>  
+        <a href="#" class="signup-link">Create New Account</a> <br>
+        <p>Connect with friends and the world around you on Facebook</p> <br>
+
+        <p> <b>Favor's Assignment</b></p>
+    </div>  
+
+</body>  
+</html>
